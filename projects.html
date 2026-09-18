@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>ผลงาน | สิริกร บุญจิตร</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">สิริกร บุญจิตร</a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="เปิดปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="experience.html">ประสบการณ์</a></li>
+        <li><a href="projects.html" class="active">ผลงาน</a></li>
+        <li><a href="contact.html">ติดต่อ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <h1>ผลงาน</h1>
+      <p class="tagline">โครงงานที่เคยมีส่วนร่วมในการพัฒนา</p>
+    </section>
+
+    <section>
+      <h2>โครงงานที่ผ่านมา</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/project1.jpg" alt="images/project1.jpg">
+          <div class="project-body">
+            <h3>ระบบจองห้องคาราโอเกะอัตโนมัติ</h3>
+            <p>
+              ช่วยจัดการการจองห้องและเวลาการใช้งานให้เปนระบบมากขึน 
+              ผู้ใช้สามารถเลือกห้องและกําหนดเวลาได้ง่าย พร้อมมีการแสดง
+              สถานะห้องและการนับเวลาถอยหลังแบบ real-time รวมถึงมี
+              ระบบแจ้งเตือนเมือหมดเวลาและฟงก์ชันหยุดระบบในกรณีฉุกเฉิน
+            </p>
+            <ul class="tech-list">
+              <li>Arduino</li>
+              <li>Proteus</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project2.jpg" alt="images/project2.jpg">
+          <div class="project-body">
+            <h3>NeuroGlow (เกมฝึกความจำ)</h3>
+            <p>
+              เกมทดสอบความจำสุดคลาสสิกที่ถูกนำมาสร้างใหม่ด้วยบอร์ด Arduino! ผู้เล่นต้องจำและกดปุ่มตามลำดับไฟ LED ที่กระพริบให้ถูกต้อง
+            </p>
+            <ul class="tech-list">
+              <li>Arduino</li>
+              <li>Proteus</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/project3.jpg" alt="images/project3.jpg">
+          <div class="project-body">
+            <h3>วงจรเรียงกระแสแบบเต็มคลื่น, ตัวกรองแถบความถี่ : BPF</h3>
+            <p>
+              ออกแบบวงจร ผลิตแผงวงจรพิมพ์ ติดตั้งอุปกรณ์ต่างๆ และทดสอบการทำงานเพื่อให้มั่นใจว่าทำงานได้อย่างถูกต้อง
+            </p>
+            <ul class="tech-list">
+              <li>EasyEDA</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2569 สิริกร บุญจิตร</p>
+    <p>สร้างด้วย HTML และ CSS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
